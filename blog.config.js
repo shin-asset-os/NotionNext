@@ -16,7 +16,7 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'ヨナCEO', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || 'Life Asset OS 運営責任者。2029年までに資産2,500万円を目指す。', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || 'Life Asset OS 運営責任者。2,500万円への航路。', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'LINK: 'https://notion-next-gilt-kappa.vercel.app', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '投資', 'AI', '行動経済学', '資産形成', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
