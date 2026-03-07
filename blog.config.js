@@ -5,8 +5,10 @@ const BLOG = {
   API_BASE_URL: process.env.API_BASE_URL || 'https://www.notion.so/api/v3',
 
   // Important page_id
-  NOTION_PAGE_ID:
-    process.env.NOTION_PAGE_ID ,
+  NOTION_PAGE_ID: process.env.NOTION_PAGE_ID,
+
+  // Fix build error for /oops page
+  NOTION_PAGE_ID_OOPS: '',
 
   THEME: process.env.NEXT_PUBLIC_THEME || 'simple',
 
@@ -63,7 +65,7 @@ const BLOG = {
   ...require('./conf/analytics.config'),
   ...require('./conf/image.config'),
   ...require('./conf/font.config'),
-  
+
   ...require('./conf/code.config'),
   ...require('./conf/animation.config'),
   ...require('./conf/widget.config'),
