@@ -7,7 +7,7 @@ const BLOG = {
   // Important page_id
   NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID ||
-    '02ab3b8678004aa69e9e415905ef32a5'
+    '02ab3b8678004aa69e9e415905ef32a5',
 
   THEME: process.env.NEXT_PUBLIC_THEME || 'simple',
 
