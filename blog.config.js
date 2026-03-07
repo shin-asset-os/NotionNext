@@ -64,7 +64,7 @@ const BLOG = {
   ...require('./conf/analytics.config'),
   ...require('./conf/image.config'),
   ...require('./conf/font.config'),
-  ...require('./conf/right-click-menu.config'),
+  
   ...require('./conf/code.config'),
   ...require('./conf/animation.config'),
   ...require('./conf/widget.config'),
